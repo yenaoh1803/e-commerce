@@ -1,0 +1,12 @@
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-bg-type: rgba(228, 153, 115, 0.09) !important;
+}
+
+tbody,
+td,
+th,
+thead,
+tr {
+  border-radius: 5px;
+  border-color: white !important;
+}

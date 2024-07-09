@@ -1,0 +1,21 @@
+.custom-navbar {
+  border-bottom: 2px solid #8b4513; /* Đường viền dưới có màu nâu */
+  margin-bottom: 40px;
+  // background-color: #e4af8a;
+
+  .navbar-brand {
+    margin-right: auto; // Đẩy sang bên trái
+    font-weight: bolder;
+    font-size: x-large;
+  }
+
+  .header-section {
+    margin-left: auto; // Đẩy sang bên phải
+    display: flex; // Sử dụng flexbox để quản lý các thành phần bên trong
+    align-items: center; // Căn các thành phần theo chiều dọc
+
+    .nav-link {
+      margin-left: 10px; // Khoảng cách giữa các thành phần
+    }
+  }
+}

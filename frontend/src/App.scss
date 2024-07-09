@@ -1,0 +1,13 @@
+/* styles.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.App {
+  text-align: center;
+}
+
+.app-container {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}

@@ -1,0 +1,28 @@
+.hover-border:hover {
+  border: 1px solid brown;
+  transition: border 0.3s ease;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  text-align: justify;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.detail-item img {
+  width: 30%;
+}
+
+.item-description {
+  font-weight: bold;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

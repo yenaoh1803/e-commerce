@@ -1,0 +1,56 @@
+Table {
+  //   background-color: rgb(252, 247, 242);
+  height: 80vh;
+}
+
+.col-span-1 {
+  width: 50%;
+  align-items: center;
+}
+
+.center-button {
+  font-size: xx-large;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%; /* Đảm bảo container bao bọc toàn bộ chiều cao của cột trái */
+  justify-content: center;
+  align-content: center;
+  margin-left: 150px;
+}
+
+.text-center {
+  margin-bottom: 20px;
+}
+
+.custom-button {
+  background-color: #8b4513;
+  font-weight: 500;
+  font-size: 10;
+  color: white;
+  border-radius: 10px;
+  height: 60px;
+  width: 200px;
+}
+
+.custom-button:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.toggle-element {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: opacity 0.5s ease, height 0.5s ease;
+  font-size: medium;
+}
+
+.visible {
+  opacity: 1;
+  height: auto;
+}

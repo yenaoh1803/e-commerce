@@ -1,0 +1,43 @@
+#custom-thead * {
+  background-color: #debb9c;
+  border: 5px solid white;
+  text-align: center;
+  font-size: large;
+}
+
+#custom-tbody {
+  display: table-row-group;
+}
+
+#custom-tbody td {
+  background-color: rgba(225, 204, 182, 0.09);
+  border: 5px solid white;
+  max-width: 200px;
+  vertical-align: middle;
+  text-align: justify;
+}
+
+#custom-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.sort-header {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  padding: 0;
+}
+
+.pagination {
+  --bs-pagination-active-bg: #debb9c !important;
+  --bs-pagination-active-border-color: #8a5818 !important;
+}
+
+.active > .page-link,
+.page-link.active {
+  color: black !important;
+}
